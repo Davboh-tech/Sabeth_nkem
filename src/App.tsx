@@ -701,11 +701,11 @@ const App = () => {
               <button
                 key={id}
                 onClick={() => setActiveSection(id)}
-                className={`py-4 px-2 border-b-2 flex items-center space-x-2 transition-colors \${ 
-                  activeSection === id 
-                    ? 'border-blue-600 text-blue-600' 
-                    : 'border-transparent text-gray-600 hover:text-blue-600'
-                }\`}
+                className={`py-4 px-2 border-b-2 flex items-center space-x-2 transition-colors ${ 
+  activeSection === id 
+    ? 'border-blue-600 text-blue-600' 
+    : 'border-transparent text-gray-600 hover:text-blue-600'
+}`}
               >
                 <Icon className="w-4 h-4" />
                 <span>{label}</span>
